@@ -18,7 +18,8 @@ friends = Friend.create([
   { name: 'madore' }, { name: 'sharf' }, { name: 'fred' }, { name: 'masse' }, 
   { name: 'eisenstein' }, { name: 'ian' }, { name: 'susanO' }, { name: 'paulR' }, 
   { name: 'brandon' }, { name: 'winden' }, { name: 'ada' }, { name: 'scottW' }, 
-  { name: 'daveV' }, { name: 'monteith' }, { name: 'jessica' } 
+  { name: 'daveV' }, { name: 'monteith' }, { name: 'jessica' }, { name: 'Wen' }, 
+  { name: 'megan' } 
   
   
   ])

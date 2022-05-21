@@ -1,3 +1,7 @@
-<%= @friend.name %>
+<h1>Partial List</h1>
+
+<% @friends.each do |friend| %>
+<div class="box"><%= friend.name %></div> 
+<% end %>
 
 

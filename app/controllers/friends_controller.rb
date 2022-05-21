@@ -1,6 +1,6 @@
 class FriendsController < ApplicationController
   def index
-    @friend = Friend.all.sample
+    @friends = Friend.all
   end
 
   def edit
@@ -8,7 +8,7 @@ class FriendsController < ApplicationController
   end
   def update
     @friend = Friend.find_by(id: params[:id])
-    @@friendName = @friend.name
+    @friendName = @friend.name
     binding.pry
     # Friend.all.delete_at(@friend.id)
     redirect_to friends_path
