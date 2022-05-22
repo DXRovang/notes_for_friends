@@ -1,9 +1,15 @@
 class FriendsController < ApplicationController
   def index
+    if Friend.all.length === 0
+      Rails.application.load_seed
+    end
     @friends = Friend.all
   end
 
   def edit
+    if Friend.all.length === 0
+      Rails.application.load_seed
+    end
     @friend = Friend.all.sample
   end
   def update
